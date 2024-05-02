@@ -1,0 +1,18 @@
+html,
+body {
+    font-size: 1rem;
+    margin-left: var(--xs);
+    margin-right: var(--xs);
+}
+
+h1 {
+    font-size: var(--xl);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
