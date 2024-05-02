@@ -1,0 +1,28 @@
+.table-grid {
+    margin-top: var(--m);
+    border-bottom: 2px solid var(--color-black);
+
+    li {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: var(--xs) 0;
+        border-top: 2px solid var(--color-black);
+    }
+
+    .tags {
+        font-size: var(--s);
+        display: flex;
+        width: fit-content;
+        gap: var(--xxxs);
+        flex-wrap: wrap;
+    
+        li {
+            background-color: var(--color-red);
+            width: min-content;
+            padding: var(--xxxs);
+            border-radius: var(--xxs);
+            color: var(--color-white);
+            border: none;
+        }
+    }
+}
